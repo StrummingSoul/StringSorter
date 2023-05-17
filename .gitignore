@@ -1,0 +1,8 @@
+   }
+
+    public static String sortString(String input) {
+        char[] chars = input.toCharArray();
+        Arrays.sort(chars);
+        return new String(chars);
+    }
+}
